@@ -1,0 +1,80 @@
+.row-about {
+    max-width: 114rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    gap: 8rem;
+
+    @include respond(tab-port) {
+        grid-template-columns: 1fr;
+        max-width: 50rem;
+        padding: 0 3rem;
+    }
+}
+
+.row-features {
+    max-width: 114rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, .8fr));
+    justify-content: center;
+    gap: 6rem;
+
+    @include respond(tab-land) {
+        grid-template-columns: 1fr;
+        max-width: 50rem;
+        padding: 0 3rem;
+    }
+    
+}
+
+.row-tours {
+    max-width: 114rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, .8fr));
+    justify-content: center;
+    gap: 6rem;
+
+    @include respond(tab-port) {
+        grid-template-columns: 1fr;
+        max-width: 50rem;
+        padding: 0 3rem;
+    }
+}
+
+.row-stories {
+    max-width: 114rem;
+    margin: 0 auto;
+
+    @include respond(tab-port) {
+        max-width: 50rem;
+        padding: 0 3rem;
+    }
+}
+
+.row-bookings {
+    max-width: 114rem;
+    margin: 0 auto;
+
+    @include respond(tab-port) {
+        max-width: 50rem;
+        padding: 0 3rem;
+    }    
+}
+
+.row-footer {
+    max-width: 114rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, .8fr));
+    gap: 2rem;
+
+    @include respond(tab-port) {
+        grid-template-columns: 1fr;
+        max-width: 50rem;
+        padding: 0 3rem;
+        gap: 6rem;
+    }
+}
+
